@@ -37,6 +37,8 @@ repo is the front door that explains what each one does, how they relate, and wh
 | **Onboarding Agent Demo Databases** | Pre-seeded source databases for exercising the Onboarding Agent end to end | [couchbase-onboarding-agent-demo-databases](https://github.com/couchbaselabs/couchbase-onboarding-agent-demo-databases) |
 | **Optimizer Agent** | Couchbase Optimizer Agent is an AI agent with a dashboard UI that continuously analyzes Couchbase Enterprise and Couchbase Capella clusters, analyzes query and index optimization opportunities, and recommends optimizations. The agent runs real-time or from a support bundle, recommends optimized queries and index opportunities | [couchbase-optimizer-agent](https://github.com/couchbaselabs/couchbase-optimizer-agent) |
 
+---
+
 ### Agent Operations Manager (AOM)
 
 [`couchbase-agent-operations-manager`](https://github.com/couchbaselabs/couchbase-agent-operations-manager)
@@ -57,6 +59,8 @@ agents on top of it.
 - **Developer tools** — Python SDK (`aom_sdk`), an MCP bridge, and integration skills for Claude, ChatGPT, and Gemini
 - **Stack** — Couchbase Server EE (vector search), FastAPI backend, React/TypeScript/Vite dashboard, Docker Compose, Helm chart for Kubernetes/K3s
 
+---
+
 ### Onboarding Agent
 
 [`couchbase-onboarding-agent`](https://github.com/couchbaselabs/couchbase-onboarding-agent)
@@ -75,12 +79,16 @@ a live dashboard, and an AI assistant that runs on a local model.
 - **Local assistant** (Qwen 3 via an Ollama-compatible API) grounded in live migration state with a Couchbase-backed vector memory — credentials and data never leave your deployment
 - **Stack** — Docker Compose or Kubernetes (Helm); shares the AOM look and feel (light/dark mode)
 
+---
+
 ### Onboarding Agent Demo Databases
 
 [`couchbase-onboarding-agent-demo-databases`](https://github.com/couchbaselabs/couchbase-onboarding-agent-demo-databases)
 
 Companion repository with pre-seeded source databases so you can run the Onboarding Agent end to end
 without pointing it at a production system.
+
+---
 
 ### Optimizer Agent
 
@@ -90,6 +98,8 @@ without pointing it at a production system.
 
 An agent that inspects Couchbase workloads and recommends or applies optimizations — indexes, query
 shape, and cluster configuration — using the same AI Data Plane components the other projects build on.
+
+---
 
 ## Getting started
 
