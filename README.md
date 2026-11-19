@@ -20,7 +20,7 @@
 
 ## What this repo is
 
-Couchbase Labs co-innovation projects are reference implementations and demos that show how to build
+Couchbase Labs co-innovation projects are reference implementations and prototypes that demonstrate how to build
 production-shaped AI and data applications on Couchbase. Each project lives in its own repository; this
 repo is the front door that explains what each one does, how they relate, and where to start.
 
